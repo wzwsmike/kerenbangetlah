@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family: montserrat;
+	/*The setting of all component in web page, that will using font of Montserrat. Make sure you already install the font*/
+}
+p{
+	font-size: 15pt;
+	/*This is the setting for elementy using paragraph and the font have size in 15 point*/
+}
+h1{
+	color: darkslategrey;
+	/*Color if you use a heading 1 and make color to the dark stale grey*/
+}
+h1 hover:a {
+	color: darkslategrey;
+	/*This is will appear while you move your pointer to the heading with link inside the part*/
+}
+h2{
+	color: darkslategrey;
+	/*Color if you use a heading 1*/
+}

@@ -1,0 +1,68 @@
+
+@charset "utf-8";
+/* CSS Document */
+*{  /*this for universal*/
+	margin: 1px;
+	padding: 1px;
+	font-family: montserrat;
+}
+p{	/*thsis for using the paragraph tag*/
+	font-size: 15pt;
+	color: darkgrey;
+}
+h1{	/*this for the header 1*/
+	color: darkslategrey;
+}
+h2{	/*this for the header 2*/
+	color: darkslategrey;
+}
+
+
+/*dibawah ini click content.css*/
+
+
+body {  /*this for the background colour of the web*/
+  background-color: lightgreen;
+}
+
+div.gallery {  /*this is for make the div like gallery event*/
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 180px;
+}
+
+div.gallery:hover {   /*this is for when you drag your mouse tio the div.gallery and it will do something that hover does*/
+  border: 1px solid #777;
+}
+
+div.gallery img {		/*this is to put in your image to the div.gallery*/
+  width: 100%;
+  height: auto;
+}
+
+div.desc {  /*this is to input the description on your div.gallery*/
+  padding: 15px;
+  text-align: center;
+}
+
+content { /*this is to make your content of the web turn into grey*/
+  color: grey;
+}
+
+img {  /*this is to input the image on your content*/
+  width: 500px;
+  length: 300px;
+  float: center;
+}
+
+h1{  /*this is to make the header*/
+  text-decoration: underline;
+  color: solid black;
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+/*for your note i use some inline css to make the news page*/

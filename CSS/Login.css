@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+*  /*this is for universal element*/
+{
+    margin: 1px;
+    padding: 1px;
+    font-family: montserrat;
+}
+p   /*this is for font size paragraph*/
+{
+    
+    font-size: 15pt;
+}
+
+h1   /*this is for h1 color*/
+{
+    color: darkslategrey;
+}
+
+h1 hover:a   /*this is when you drag your mouse to the the botton */
+{
+color: darkslategrey;
+ 
+}
+h2   /*this for h2 color*/
+{
+    color: darkslategrey;
+}
+ 
+@charset "utf-8";
+/* CSS Document */
+.login-page  /*this is for the size of login page*/ 
+{
+     width: 360px; padding: 8% 0 0; margin: auto;
+}
+.form   /*this is for size of form*/
+{
+position: relative; z-index: 1;
+background: #FFFFFF; max-width: 360px; margin: 0 auto 100px; padding: 45px;
+text-align: center;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); 
+}
+.form input   /*this is for size form input*/
+{
+outline: 0;
+background: #f2f2f2; width: 100%;
+border: 0;
+margin: 0 0 15px; padding: 15px;
+box-sizing: border-box; font-size: 14px;
+}
+.form button  /*this is for size form botton*/
+{
+font-family: "Roboto", sans-serif; text-transform: uppercase; outline: 0;
+background: #26C4C2; width: 100%;
+border: 0; padding: 15px; color: #FFFFFF; font-size: 14px;
+-webkit-transition: all 0.3 ease; transition: all 0.3 ease;
+cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus   /*this is when you click or drag your mouse to the botton of the form */
+{ 
+    background: #43A047;
+}
+.form .register-form  /*this is register form*/
+{ 
+    display: none;
+}
+.container   /*this is size for container*/
+{ 
+position: relative; z-index: 1;
+max-width: 300px; margin: 0 auto;
+}
+body   /*this is for the body page*/
+{
+background: #26C4C2;
+}
