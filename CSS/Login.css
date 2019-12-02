@@ -50,15 +50,27 @@ box-sizing: border-box; font-size: 14px;
 }
 .form button  /*this is for size form botton*/
 {
-font-family: "Roboto", sans-serif; text-transform: uppercase; outline: 0;
-background: #26C4C2; width: 100%;
+/*font-family: "Roboto", sans-serif;*/ 
+   font-family: "Fransisco", sans-serif;  
+    text-transform: uppercase; outline: 0;
+background: #26C4C2;
+    width: 100%;
 border: 0; padding: 15px; color: #FFFFFF; font-size: 14px;
 -webkit-transition: all 0.3 ease; transition: all 0.3 ease;
 cursor: pointer;
 }
+
+.form a /*this is modified css*/
+{
+    
+    color: black; /*this is modified css*/
+    
+    
+}
 .form button:hover,.form button:active,.form button:focus   /*this is when you click or drag your mouse to the botton of the form */
 { 
-    background: #43A047;
+    
+    background: #43A047; 
 }
 .form .register-form  /*this is register form*/
 { 
@@ -71,5 +83,8 @@ max-width: 300px; margin: 0 auto;
 }
 body   /*this is for the body page*/
 {
-background: #26C4C2;
+/*background: #26C4C2;*/
+    background: url(    img/login1.png);/*background modified*/
+    background-size:100%;
+    
 }
