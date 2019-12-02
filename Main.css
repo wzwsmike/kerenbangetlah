@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+#heading{
+		float: left;
+		/*width: 600px;*/
+        width: auto;
+         
+    
+/*setting for the heading div*/
+}
+
+#heading img{ /*modificationcss*/
+    height: 66px;
+    width: 100px;
+		
+/*setting for the heading div*/
+}
+
+#heading a {
+		line-height: 65px;
+		text-decoration: none;
+        text-align: right;
+    
+        
+		color:#FFF;
+/*setting for the heading link for div*/
+}
+
+.gambar img{
+    width: 700px;
+    height: 500px;
+    margin-left: 300px;
+    
+/*setting for div and modifications*/
+    
+}
+
+.gallery img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+    /*setting for div and modifications*/
+}
+
+.penjelasan{
+    border: 5px solid black;
+    
+    float: left;
+  /*setting for div and modifications*/   
+}
+
+#menu {
+		/* background:#26C4C2; */
+    background-color: blue; /*modificationss*/
+		width: 100%;
+		height: 65px;
+		margin: 0px;
+		padding: 0px;
+/*Modification for the color and the size of menu*/
+}
+#menu ul {
+    	list-style: none;
+/*This function will hide the button for the list*/
+}
+#menu ul li {
+		float: left;
+		line-height: 65px
+/*This function to make sure the text will arrange to left*/
+}
+#menu ul li a {
+		float:left; 
+		width:100px; 
+		display:block; 
+		text-align:center; 
+		color:#FFF; 
+		text-decoration:none; 
+/*This will effect to the link in menu*/
+}
+
+.judul{
+    text-align: left;
+    
+    
+    
+}
+#menu ul ul {
+		display:none; 
+		list-style:none; 
+		position:absolute; 
+		background-color:#26C4C2;
+		float: none;
+		top:65px; 
+		width:190px;
+/*The funtion will unter sub menu/drop down menu*/
+}	
+#menu ul li a:hover {
+		background-color:#2E9EA2; 
+		display:block;
+/*The link in the drop down menu*/
+}
+#menu ul li:hover ul {
+    	display:block;
+/*The sub menu hover*/
+}
+#menu ul ul li a {
+		display:block;
+		padding-left:30px; 
+		text-align:left; 
+		width:160px;
+		height: 60px;
+		line-height: 60px;
+/*The funtion will unter sub menu/drop down menu fill*/
+}
+#menu ul ul li a:hover {
+    	color:#fff;
+/*The function will the cursor effect in drop down menu*/
+}
