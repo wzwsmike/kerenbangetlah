@@ -63,14 +63,14 @@ cursor: pointer;
 .form a /*this is modified css*/
 {
     
-    color: black; /*this is modified css*/
+    color: #000000; /*this is modified css*/
     
     
 }
 .form button:hover,.form button:active,.form button:focus   /*this is when you click or drag your mouse to the botton of the form */
 { 
     
-    background: #43A047; 
+    background: #ffa500; 
 }
 .form .register-form  /*this is register form*/
 { 
@@ -84,7 +84,7 @@ max-width: 300px; margin: 0 auto;
 body   /*this is for the body page*/
 {
 /*background: #26C4C2;*/
-    background: url(    img/login1.png);/*background modified*/
+    background: url(    Picture/login1.png);/*background modified*/
     background-size:100%;
     
 }
