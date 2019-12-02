@@ -63,7 +63,7 @@
 }
 body {
     /*background: #26C4C2 */
-    background: url("background (1).png");/* this is modified background*/
+    background: url("../Picture/RegisterBG.png");/* this is modified background*/
     background-size: 100%; /* this is modify */ 
 /* this will be reaction in whole page */  
 }
