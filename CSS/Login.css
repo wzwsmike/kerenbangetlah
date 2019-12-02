@@ -84,7 +84,7 @@ max-width: 300px; margin: 0 auto;
 body   /*this is for the body page*/
 {
 /*background: #26C4C2;*/
-    background: url(    Picture/login1.png);/*background modified*/
+    background: url(../Picture/login1.png);/*background modified*/
     background-size:100%;
     
 }
