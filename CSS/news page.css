@@ -11,7 +11,8 @@ p{	/*thsis for using the paragraph tag*/
 	color: darkgrey;
 }
 h1{	/*this for the header 1*/
-	color: darkslategrey;
+	/*color: darkslategrey;*/
+    color: black;/*modified*/
 }
 h2{	/*this for the header 2*/
 	color: darkslategrey;
@@ -22,14 +23,18 @@ h2{	/*this for the header 2*/
 
 
 body {  /*this for the background colour of the web*/
-  background-color: lightgreen;
+  /*background-color: lightgreen;*/
+    background-color: purple; /*modified*/
 }
 
 div.gallery {  /*this is for make the div like gallery event*/
-  margin: 5px;
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
   border: 1px solid #ccc;
   float: center;
-  width: 180px;
+  /*width: 180px;*/
+    width: 300px;/*modified*/
+    height: 280px; /*modified*/
 }
 
 div.gallery:hover {   /*this is for when you drag your mouse tio the div.gallery and it will do something that hover does*/
@@ -37,8 +42,8 @@ div.gallery:hover {   /*this is for when you drag your mouse tio the div.gallery
 }
 
 div.gallery img {		/*this is to put in your image to the div.gallery*/
-  width: 100%;
-  height: auto;
+  /*width: ; */  
+  
 }
 
 div.desc {  /*this is to input the description on your div.gallery*/
@@ -51,9 +56,13 @@ content { /*this is to make your content of the web turn into grey*/
 }
 
 img {  /*this is to input the image on your content*/
-  width: 500px;
-  length: 300px;
+  /*width: 500px;*/
+  /*height: 300px;*/
+    padding: 10px;/*modified*/
+    width: 280px; /*modified*/
+    height: 180px; /*modified*/
   float: center;
+    
 }
 
 h1{  /*this is to make the header*/
