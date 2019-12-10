@@ -27,13 +27,103 @@ body {  /*this for the background colour of the web*/
     background-color: purple; /*modified*/
 }
 
-div.gallery {  /*this is for make the div like gallery event*/
+div.gallery1 {  /*this is for make the div like gallery event*/
   /*margin: 5px;*/
     margin: 10px;/*modified*/
   border: 1px solid #ccc;
   float: center;
   /*width: 180px;*/
-    width: 300px;/*modified*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery2 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery3 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery4 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery5 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery6 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery7 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery8 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery9 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery10 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
+    height: 280px; /*modified*/
+}
+div.gallery11 {  /*this is for make the div like gallery event*/
+  /*margin: 5px;*/
+    margin: 10px;/*modified*/
+  border: 1px solid #ccc;
+  float: center;
+  /*width: 180px;*/
+    width: 20%;/*modified*/
     height: 280px; /*modified*/
 }
 
@@ -73,5 +163,47 @@ h1{  /*this is to make the header*/
 }
 
 
-
 /*for your note i use some inline css to make the news page*/
+@media only screen and (max-width:500px) {
+    /* For tablets: */
+.gallery1{
+    width: 30%;
+    padding: 0;
+  }
+  .gallery2 {
+    width: 20%;
+  }
+    .gallery3 {
+    width: 20%;
+  }
+    .gallery4 {
+    width: 20%;
+  }
+    .gallery5 {
+    width: 20%;
+  }
+    .gallery6 {
+    width: 20%;
+  }
+    .gallery7 {
+    width: 20%;
+  }
+    .gallery8 {
+    width: 20%;
+  }
+    .gallery9 {
+    width: 20%;
+  }
+    .gallery10 {
+    width: 20%;
+  }
+    .gallery11 {
+    width: 20%;
+  }
+}
+@media only screen and (max-width:100px) {
+  /* For mobile phones: */
+  .gallery1, .gallery2, .gallery3, .gallery4, .gallery5, .gallery6, .gallery7, .gallery8, .gallery9, .gallery10, .gallery11{
+    width: 10%;
+  }
+}
